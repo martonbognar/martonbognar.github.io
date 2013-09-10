@@ -1,0 +1,22 @@
+body {
+    color: #000000;
+    background-color: #ffffff;
+}
+
+h1 {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+ul {
+    
+}
+
+li {
+
+}
+
+a, a:visited {
+    color: #0588bc;
+    text-decoration: none;
+}
