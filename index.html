@@ -5,16 +5,34 @@
     <title>mici's cave :: thecookiefactory.org</title>
     <meta http-equiv='Content-Type' content='text/html;charset=UTF-8'>
     <link rel='shortcut icon' href='favicon.ico' type='image/x-icon'>
+    <script src='http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js'>
+    </script>
+    <script>
+            $(document).ready(function() {
+                $('#section1').hide();
+                $('#button1').click(function() {
+                    $('#section1').toggle();
+                });
+            });
+    </script>
+    <script>
+            $(document).ready(function() {
+                $('#section2').hide();
+                $('#button2').click(function() {
+                    $('#section2').toggle();
+                });
+            });
+    </script>
 </head>
 <body>
 
     <div id='mystuff'>
 
         <header>
-            <h1>my own stuff</h1>
+            <h1>my own stuff</h1><button id='button1'>hey</button>
         </header>
 
-        <section>
+        <section id='section1'>
             <h2>main projects</h2>
 
             <h3><a href='#tcf'>thecookiefactory</a></h3>
@@ -45,10 +63,10 @@
     <div id='tcf'>
 
         <header>
-            <h1>thecookiefactory</h1>
+            <h1>thecookiefactory</h1><button id='button2'>hey</button>
         </header>
 
-        <section>
+        <section id='section2'>
             <ul>
                 <li class='thecookiefactory'><a target='_blank' href='http://thecookiefactory.org'>thecookiefactory.org</a></li>
             </ul>
