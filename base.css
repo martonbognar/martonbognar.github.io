@@ -73,11 +73,15 @@ h1 {
 h2 {
     font-variant: small-caps;
     margin-left: 20px;
+    margin-right: 20px;
+    border-bottom: 1px solid #001234;
+    color: #001234;
 }
 
 h3 {
     font-variant: small-caps;
-    margin-left: 40px;
+    margin: 0px 40px 20px;
+    display: inline-block;
 }
 
 #mystuff h2 {
@@ -97,11 +101,17 @@ h3 {
 }
 
 ul {
-
+margin-left: 20px;
 }
 
 li {
 
+}
+
+span.icons {
+    display: inline-block;
+    float: right;
+    margin-right: 40px;
 }
 
 p {
@@ -110,9 +120,13 @@ p {
 
 a, a:visited {
     color: #000000;
+    text-decoration: underline;
+}
+
+a:hover {
     text-decoration: none;
 }
 
 a:after {
-    content: " \25B6";
+
 }
