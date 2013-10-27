@@ -5,40 +5,6 @@
     <title>mici's cave :: thecookiefactory.org</title>
     <meta http-equiv='Content-Type' content='text/html;charset=UTF-8'>
     <link rel='shortcut icon' href='favicon.ico' type='image/x-icon'>
-    <script src='http://code.jquery.com/jquery-latest.js'>
-    </script>
-    <script>
-            $(document).ready(function() {
-                $('#section1').hide();
-                $('#button1').click(function() {
-                    $('#section1').slideToggle(200, 'linear');
-                    var $this = $('#button1');
-                    $this.toggleClass('show');
-
-                    if ($this.hasClass('show')) {
-                        $this.html('&#x25B2;');
-                    } else {
-                        $this.html('&#x25BC;');
-                    }
-                });
-            });
-    </script>
-    <script>
-            $(document).ready(function() {
-                $('#section2').hide();
-                $('#button2').click(function() {
-                    $('#section2').slideToggle(200, 'linear');
-                    var $this = $('#button2');
-                    $this.toggleClass('show');
-
-                    if ($this.hasClass('show')) {
-                        $this.html('&#x25B2;');
-                    } else {
-                        $this.html('&#x25BC;');
-                    }
-                });
-            });
-    </script>
 </head>
 <body>
 
@@ -46,7 +12,6 @@
 
         <header>
             <h1>my own stuff</h1>
-            <button id='button1'>&#x25BC;</button>
         </header>
 
         <section id='section1'>
@@ -72,21 +37,6 @@
                 <li class='steam'><a target='_blank' href='http://steamcommunity.com/id/mici-'>Steam</a></li>
                 <li class='twitch'><a target='_blank' href='http://twitch.tv/mici_'>Twitch</a></li>
                 <li class='youtube'><a target='_blank' href='http://youtube.com/megamicimacko'>YouTube</a></li>
-            </ul>
-        </section>
-
-    </div>
-
-    <div id='tcf'>
-
-        <header>
-            <h1>thecookiefactory</h1>
-            <button id='button2'>&#x25BC;</button>
-        </header>
-
-        <section id='section2'>
-            <ul>
-                <li class='thecookiefactory'><a target='_blank' href='http://thecookiefactory.org'>thecookiefactory.org</a></li>
             </ul>
         </section>
 
