@@ -13,14 +13,25 @@
             <h2>Failure is always an option</h2>
         </header>
         <nav>
-            <a href='#about'><span class='menu-item'>about</span></a>
-            <a href='#projects'><span class='menu-item'>projects</span></a>
-            <a href='#blog'><span class='menu-item'>blog</span></a>
+            <ul id='menu'>
+                <li><a href='/'>about</a></li>
+                <li><a href='/projects'>projects</a></li>
+                <li><a href='/blog'>blog</a></li>
+            </ul>
         </nav>
-        {{ content }}
+        <section>
+            {{ content }}
+        </section>
     </div>
     <footer>
-        steam twitch linkedin youtube twitter github
+        <ul id='contact-box'>
+            <li><a href='//steamcommunity.com/id/mici-'>Steam</a></li>
+            <li><a href='//twitch.tv/mici_'>Twitch</a></li>
+            <li><a href='//linkedin.com/in/martonbognar'>Linkedin</a></li>
+            <li><a href='//youtube.com/megamicimacko'>YouTube</a></li>
+            <li><a href='//twitter.com/martonbognar'>Twitter</a></li>
+            <li><a href='//github.com/mici-'>GitHub</a></li>
+        </ul>
     </footer>
 </body>
 </html>

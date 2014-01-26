@@ -4,7 +4,9 @@ html {
 }
 
 body {
-  background-color: #000;
+  background-color: #fff;
+  background-image: url('/img/background.png');
+  background-repeat: repeat-x;
   text-align: center;
   margin: 0;
   padding: 0;
@@ -14,15 +16,12 @@ body {
 #wrapper {
   width: 1000px;
   margin: 0 auto;
-  border-width: 0 1px;
-  border-color: #666;
-  border-style: solid;
-  background-color: #bdf;
   padding: 0;
 }
 
 header {
   text-align: left;
+  margin-top: 50px;
 }
 
 h1 {
@@ -33,9 +32,26 @@ nav {
   text-align: left;
 }
 
-.menu-item {
-  border: 1px solid #fff;
-  width: 20px;
+ul {
+  list-style-type: none;
+}
+
+#menu li {
+  padding: 15px 0 20px;
+  text-align: center;
+  display: inline-block;
+  width: 150px;
+  font-variant: small-caps;
+  font-size: 1.5em;
+}
+
+#menu li:hover {
+  background-image: url('/img/fade.png');
+}
+
+section {
+  background-image: url('/img/fade.png');
+  border: 1px solid #666;
 }
 
 h3 {
@@ -43,8 +59,10 @@ h3 {
 }
 
 footer {
-  border-top: 1px solid white;
-  background-color: #000;
   margin: 0;
   padding: 0;
+}
+
+#contact-box li {
+  display: inline-block;
 }
