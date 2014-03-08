@@ -52,6 +52,8 @@ ul {
 section {
   background-image: url('/img/fade.png');
   border: 1px solid #666;
+  text-align: left;
+  padding: 10px;
 }
 
 h3 {
@@ -65,4 +67,8 @@ footer {
 
 #contact-box li {
   display: inline-block;
+}
+
+.project-box {
+  margin-bottom: 20px;
 }
