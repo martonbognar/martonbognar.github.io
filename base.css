@@ -9,4 +9,65 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+}
+
+#wrapper {
+  margin: auto;
+  width: 1000px;
+  text-align: left;
+}
+
+#side-left {
+  background-image: url('img/background-div.png');
+  width: 350px;
+  padding: 5px;
+  float: left;
+  border-right: 1px solid white;
+}
+
+img {
+  width: 100%;
+}
+
+h1 {
+  font-family: "Open Sans";
+  margin-top: 10px;
+}
+
+p {
+  text-indent: 20px;
+  font-family: Roboto;
+}
+
+a, a:visited, a:active {
+  color: #fff135;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  width: 350px;
+}
+
+li {
+  font-size: 40px;
+  display: inline;
+  margin: 5px;
+}
+
+#side-right {
+  background-image: url('img/background-div.png');
+  width: 629px;
+  padding: 5px;
+  float: left;
 }
