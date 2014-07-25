@@ -23,12 +23,12 @@ body {
 #side-left {
   background-image: url('img/background-div.png');
   width: 350px;
-  padding: 5px;
+  padding: 10px;
   float: left;
   border-right: 1px solid white;
 }
 
-img {
+#profile {
   width: 100%;
 }
 
@@ -67,7 +67,12 @@ li {
 
 #side-right {
   background-image: url('img/background-div.png');
-  width: 629px;
-  padding: 5px;
+  width: 609px;
+  padding: 10px;
   float: left;
+}
+
+img.project-image {
+  width: 608px;
+  border: 1px solid white;
 }
