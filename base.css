@@ -25,7 +25,6 @@ body {
   width: 350px;
   padding: 10px;
   float: left;
-  border-right: 1px solid white;
 }
 
 #profile {
@@ -48,7 +47,8 @@ a, a:visited, a:active {
 }
 
 a:hover {
-  text-decoration: underline;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 ul {
@@ -66,32 +66,50 @@ li {
 }
 
 #side-right {
-  background-image: url('img/background-div.png');
   width: 609px;
   padding: 10px;
   float: left;
 }
 
 div.project-box {
-  margin-top: 20px;
-}
-
-div.project-image {
+  margin: 20px 0 0 0;
+  padding: 0;
   width: 608px;
   height: 342px;
   border: 1px solid white;
+  overflow: hidden;
+}
+
+div.fucking-divs {
+  background-image: url('img/background-div.png');
+  margin: 0;
+  padding: 0;
 }
 
 div.project-header {
-  padding: 10px 0 0 10px;
+  padding: 10px 0 0 20px;
   height: 32px;
   margin-top: 300px;
-  background-image: url('img/background-div.png');
 }
 
 h3 {
   font-family: "Open Sans";
   margin: 0;
   padding: 0;
+  display: inline;
 }
 
+span.more-info {
+  float: right;
+  margin-right: 10px;
+}
+
+div.description {
+  padding: 0 10px;
+}
+
+div.meta p {
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-bottom: 15px;
+}

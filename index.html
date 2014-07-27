@@ -5,9 +5,11 @@
     <title>mici's cave - thecookiefactory.org</title>
     <meta charset='utf-8'>
     <link rel='shortcut icon' href='favicon.ico' type='image/x-icon'>
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
-    <link href='http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css' rel='stylesheet'>
+    <link href='//fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <link href='//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css' rel='stylesheet'>
+    <script type='text/javascript' src='functions.js'>
+    </script>
 </head>
 <body>
     <div id='wrapper'>
@@ -41,64 +43,98 @@
         </div>
         <div id='side-right'>
 
-            <div class='project-box'>
-                <div class='project-image' style='background-image: url("img/project-thecookiefactory.png");'>
-                    <div class='project-header'>
-                        <h3>thecookiefactory.org - <a href='http://thecookiefactory.org'>Website</a> - <a href='http://github.com/thecookiefactory/thecookiefactoryorg'>Source code</a></h3>
+            <div class='project-box' style='background-image: url("img/project-thecookiefactory.png");' id='project-thecookiefactory'>
+                <div class='fucking-divs'>
+                    <a onclick='scroll("project-thecookiefactory");'>
+                        <div class='project-header'>
+                            <h3>thecookiefactory.org</h3>
+                            <span class='more-info' id='project-thecookiefactory-more'>&#x25B2;</span>
+                        </div>
+                    </a>
+                    <div class='description'>
+                        <p>
+                            This website was (is being) built to showcase maps made for TF2 in a shiny environment, but the possibility is always there to use the website for other purposes as well.
+                            Feel free to quote me on that, we have some cool stuff coming up in the next few months!
+                        </p>
+                    </div>
+                    <div class='meta'>
+                        <p>
+                            Created with <a href='//github.com/underyx'>underyx</a> using PHP, HTML, CSS, JS, Python
+                        </p>
+                        <p>
+                            Check out the website <a href='//thecookiefactory.org'>here</a> and the source code <a href='//github.com/thecookiefactory/thecookiefactoryorg'>here</a>.
+                        </p>
                     </div>
                 </div>
-                <p>
-                    This website was (is being) built to showcase maps made for TF2 in a shiny environment, but the possibility is always there to use the website for other purposes as well.
-                    Feel free to quote me on that, we have some cool stuff coming up in the next few months!
-                </p>
-                <span class='meta'>
-                    Language: PHP + HTML (CSS, JS and Python scripts mainly by Underyx)<br>
-                    Co-creator: Underyx
-                </span>
             </div>
 
-            <div class='project-box'>
-                <div class='project-image' style='background-image: url("img/project-trisection.png");'>
-                    <div class='project-header'>
-                        <h3>Trisection - <a href='http://github.com/mici-/trisection'>Source code</a></h3>
+            <div class='project-box' style='background-image: url("img/project-trisection.png");' id='project-trisection'>
+                <div class='fucking-divs'>
+                    <a onclick='scroll("project-trisection");'>
+                        <div class='project-header'>
+                            <h3>Trisection</h3><span class='more-info' id='project-trisection-more'>&#x25B2;</span>
+                        </div>
+                    </a>
+                    <div class='description'>
+                        <p>
+                            This small project was originally created for a maths lesson to demonstrate trisectioning an angle using only compass-and-straightedge constructions.
+                        </p>
+                    </div>
+                    <div class='meta'>
+                        <p>
+                            Created with <a href='//github.com/NohcRa'>NohcRa</a> using Free Pascal
+                        </p>
+                        <p>
+                            Check out the source code <a href='//github.com/mici-/trisection'>here</a>.
+                        </p>
                     </div>
                 </div>
-                <p>
-                    This small project was originally created for a maths lesson to demonstrate trisectioning an angle using only compass-and-straightedge constructions.
-                </p>
-                <span class='meta'>
-                    Language: Free Pascal<br>
-                    Co-creator: Nohcra
-                </span>
             </div>
 
-            <div class='project-box'>
-                <div class='project-image' style='background-image: url("img/project-multiples.png");'>
-                    <div class='project-header'>
-                        <h3>Multiples - <a href='http://github.com/mici-/multiples'>Source code</a></h3>
+            <div class='project-box' style='background-image: url("img/project-multiples.png");' id='project-multiples'>
+                <div class='fucking-divs'>
+                    <a onclick='scroll("project-multiples");'>
+                        <div class='project-header'>
+                            <h3>Multiples</h3><span class='more-info' id='project-multiples-more'>&#x25B2;</span>
+                        </div>
+                    </a>
+                    <div class='description'>
+                        <p>
+                            Again a maths project by NohcRa and me, this program demonstrates the multiples of integers in a coordinate system.
+                        </p>
+                    </div>
+                    <div class='meta'>
+                        <p>
+                            Created with <a href='//github.com/NohcRa'>NohcRa</a> using Free Pascal
+                        </p>
+                        <p>
+                            Check out the source code <a href='//github.com/mici-/multiples'>here</a>.
+                        </p>
                     </div>
                 </div>
-                <p>
-                    Again a maths project by Nohcra and me, this program demonstrates the multiples of integers in a coordinate system.
-                </p>
-                <span class='meta'>
-                    Language: Free Pascal<br>
-                    Co-creator: Nohcra
-                </span>
             </div>
 
-            <div class='project-box'>
-                <div class='project-image' style='background-image: url("img/project-bomber.png");'>
-                    <div class='project-header'>
-                        <h3>Bomber - <a href='http://github.com/mici-/bomber'>Source code</a></h3>
+            <div class='project-box' style='background-image: url("img/project-bomber.png");' id='project-bomber'>
+                <div class='fucking-divs'>
+                    <a onclick='scroll("project-bomber");'>
+                        <div class='project-header'>
+                            <h3>Bomber</h3><span class='more-info' id='project-bomber-more'>&#x25B2;</span>
+                        </div>
+                    </a>
+                    <div class='description'>
+                        <p>
+                            A very basic remake of the famous bomberman game using character art.
+                        </p>
+                    </div>
+                    <div class='meta'>
+                        <p>
+                            Created using Free Pascal
+                        </p>
+                        <p>
+                            Check out the source code <a href='//github.com/mici-/bomber'>here</a>.
+                        </p>
                     </div>
                 </div>
-                <p>
-                    A very basic remake of the famous bomberman game using character art.
-                </p>
-                <span class='meta'>
-                    Language: Free Pascal
-                </span>
             </div>
 
         </div>
