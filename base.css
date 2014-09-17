@@ -25,6 +25,7 @@ body {
   width: 350px;
   padding: 10px;
   float: left;
+  position: fixed;
 }
 
 #profile {
@@ -68,7 +69,7 @@ li {
 #side-right {
   width: 609px;
   padding: 10px;
-  float: left;
+  float: right;
 }
 
 div.project-box {
