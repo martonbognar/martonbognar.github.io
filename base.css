@@ -1,4 +1,4 @@
-html {
+html, body {
   margin: 0;
   padding: 0;
 }
@@ -33,7 +33,7 @@ body {
 }
 
 h1 {
-  font-family: "Open Sans";
+  font-family: 'Open Sans';
   margin-top: 10px;
 }
 
@@ -93,8 +93,28 @@ div.project-header {
   margin-top: 300px;
 }
 
+#project-thecookiefactory {
+  background-image: url("img/project-thecookiefactory.png");
+}
+
+#project-mark-calculator {
+  background-image: url("img/project-mark-calculator.png");
+}
+
+#project-trisection {
+  background-image: url("img/project-trisection.png");
+}
+
+#project-multiples {
+  background-image: url("img/project-multiples.png");
+}
+
+#project-bomber {
+  background-image: url("img/project-bomber.png");
+}
+
 h3 {
-  font-family: "Open Sans";
+  font-family: 'Open Sans';
   margin: 0;
   padding: 0;
   display: inline;
