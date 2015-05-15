@@ -79,6 +79,10 @@ div.project-box {
   height: 342px;
   border: 1px solid white;
   overflow: hidden;
+  background-size: contain;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  background-repeat: no-repeat;
 }
 
 div.fucking-divs {

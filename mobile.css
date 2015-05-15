@@ -46,13 +46,14 @@
 
   div.project-box {
     margin: 2em 0 0 0;
-    width: 100%;
+    width: 100vw;
+    height: 56.25vw;
+    box-sizing: border-box;
   }
 
   div.project-header {
     padding: 1em 0 0 2em;
     height: 3em;
-    margin-top: 30em;
   }
 
   span.more-info {
