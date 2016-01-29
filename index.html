@@ -2,8 +2,9 @@
 <html>
 <head>
   <title>marton bognar - mici.hu</title>
-  <link rel='stylesheet' type='text/css' href='main.css'>
-  <link rel='stylesheet' type='text/css' href='mobile.css'>
+  <link rel='stylesheet' type='text/css' href='css/main.css'>
+  <link rel='stylesheet' type='text/css' href='css/mobile.css'>
+  <link rel='stylesheet' type='text/css' href='css/lightbox.min.css'>
   <meta charset='utf-8'>
   <link rel='shortcut icon' href='favicon.ico' type='image/x-icon'>
   <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
@@ -22,13 +23,13 @@
 <body>
   <div id='container'>
     <div id='top'>
-      <img src='img/profile.jpg'>
+      <img src='images/profile.jpg'>
       <h1>marton bognar</h1>
       <p>Computer Engineering Student at Budapest University of Technology and Economics</p>
       <div id='contact-icons'>
         <ul>
-          <li><a href='https://github.com/martonbognar'><i class='fa fa-github'></i></a></li>
-          <li><a href='mailto:martonbognar@sch.bme.hu'><i class='fa fa-envelope-o'></i></a></li>
+          <li><a target='_blank' href='https://github.com/martonbognar'><i class='fa fa-github'></i></a></li>
+          <li><a target='_blank' href='mailto:martonbognar@sch.bme.hu'><i class='fa fa-envelope-o'></i></a></li>
         </ul>
       </div>
       <!--<div id='cv'>
@@ -38,53 +39,54 @@
     <h2>Projects</h2>
     <div class='portfolio-box'>
       <div class='project-img'>
-        <img src='img/project-erettsegik.jpg'>
+        <a href='images/project-erettsegik.jpg' data-lightbox='image' data-title='erettsegik'><img src='images/project-erettsegik.jpg'></a>
       </div>
       <div class='project-meta'>
         <h3>erettsegik</h3>
         <p class='code'>PHP, HTML5, CSS3, JavaScript, AJAX</p>
         <p class='people'>homboli</p>
-        <p class='links'><a href='https://erettsegik.hu'>Website</a></p>
-        <p class='links'><a href='https://github.com/erettsegik/erettsegik.hu'>Source</a></p>
+        <p class='links'><a target='_blank' href='https://erettsegik.hu'>Website</a></p>
+        <p class='links'><a target='_blank' href='https://github.com/erettsegik/erettsegik.hu'>Source</a></p>
         <p class='description'>A website made to share and modify documents related to the hungarian a-levels/university entry exams.</p>
       </div>
     </div>
     <div class='portfolio-box'>
       <div class='project-img'>
-        <img src='img/project-erettsegik.jpg'>
+        <a href='images/project-thecookiefactory.jpg' data-lightbox='image' data-title='thecookiefactory'><img src='images/project-thecookiefactory.jpg'></a>
       </div>
       <div class='project-meta'>
       <h3>thecookiefactory</h3>
         <p class='code'>PHP, HTML5, CSS3, JavaScript, Python</p>
         <p class='people'>underyx</p>
-        <p class='links'><a href='https://thecookiefactory.org'>Website</a></p>
-        <p class='links'><a href='https://github.com/thecookiefactory/thecookiefactoryorg'>Source</a></p>
+        <p class='links'><a target='_blank' href='https://thecookiefactory.org'>Website</a></p>
+        <p class='links'><a target='_blank' href='https://github.com/thecookiefactory/thecookiefactoryorg'>Source</a></p>
         <p class='description'>We have built this website mainly to showcase maps made by our group of friends for various Source engine based games.</p>
       </div>
     </div>
     <div class='portfolio-box'>
       <div class='project-img'>
-        <img src='img/project-erettsegik.jpg'>
+        <a href='images/project-mealy.jpg' data-lightbox='image' data-title='mealy-machine'><img src='images/project-mealy.jpg'></a>
       </div>
       <div class='project-meta'>
         <h3>mealy-machine</h3>
         <p class='code'>C++</p>
-        <p class='links'><a href='https://github.com/martonbognar/mealy-machine'>Source</a></p>
+        <p class='links'><a target='_blank' href='https://github.com/martonbognar/mealy-machine'>Source</a></p>
         <p class='description'>A Mealy finite state machine simulator with binary inputs.</p>
       </div>
     </div>
     <div class='portfolio-box'>
       <div class='project-img'>
-        <img src='img/project-erettsegik.jpg'>
+        <a href='images/project-trisection.jpg' data-lightbox='image' data-title='trisection'><img src='images/project-trisection.jpg'></a>
       </div>
       <div class='project-meta'>
         <h3>trisection</h3>
         <p class='code'>Pascal</p>
         <p class='people'>NohcRa</p>
-        <p class='links'><a href='https://github.com/martonbognar/trisection'>Source</a></p>
+        <p class='links'><a target='_blank' href='https://github.com/martonbognar/trisection'>Source</a></p>
         <p class='description'>This small project was originally created for a maths lesson to demonstrate trisectioning an angle using only compass-and-straightedge constructions.</p>
       </div>
     </div>
   </div>
+  <script src='js/lightbox-plus-jquery.min.js'></script>
 </body>
 </html>

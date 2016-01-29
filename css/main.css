@@ -1,11 +1,11 @@
 html, body {
   background-attachment: fixed;
   background-color: #000;
-  background-image: url('img/background.jpg');
+  background-image: url('/images/background.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   color: #fff;
-  font-family: "Open Sans";
+  font-family: 'Open Sans';
   margin: 0;
   min-height: 100%;
   padding: 0;
@@ -37,7 +37,7 @@ a, a:visited, a:active {
   display: inline-block;
   width: auto;
   margin: auto;
-  background-image: url(img/background-div.png);
+  background-image: url('/images/background-div.png');
   padding: 10px;
 }
 
@@ -99,7 +99,7 @@ div.project-meta {
 }
 
 h1, h2, h3 {
-  font-family: "Roboto";
+  font-family: 'Roboto';
   color: #fff;
 }
 
@@ -115,17 +115,17 @@ div.project-meta p::before {
 }
 
 p.code::before {
-  content: "\f121";
+  content: '\f121';
 }
 
 p.people::before {
-  content: "\f007";
+  content: '\f007';
 }
 
 p.links::before {
-  content: "\f08e";
+  content: '\f08e';
 }
 
 p.description::before {
-  content: "\f0f6";
+  content: '\f0f6';
 }
