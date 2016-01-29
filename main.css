@@ -1,15 +1,15 @@
 html, body {
-  margin: 0;
-  padding: 0;
-  min-height: 100%;
+  background-attachment: fixed;
   background-color: #000;
   background-image: url('img/background.jpg');
   background-repeat: no-repeat;
-  background-attachment: fixed;
   background-size: cover;
-  text-align: center;
-  font-family: "Open Sans";
   color: #fff;
+  font-family: "Open Sans";
+  margin: 0;
+  min-height: 100%;
+  padding: 0;
+  text-align: center;
 }
 
 *, *::before, *::after {
@@ -19,17 +19,18 @@ html, body {
 }
 
 ::selection {
-  background-color: #765F82;
+  background-color: #969696;
   color: #ffffff;
 }
 
 ::-moz-selection {
-  background-color: #765F82;
+  background-color: #969696;
   color: #ffffff;
 }
 
 a, a:visited, a:active {
   color: #ff9933;
+  text-decoration: none;
 }
 
 #container {
@@ -86,7 +87,7 @@ img {
 }
 
 h3 {
-  margin: 0;
+  margin: 0 0 15px 0;
 }
 
 div.project-meta {
@@ -107,9 +108,10 @@ div.project-meta p {
 }
 
 div.project-meta p::before {
-  font-family: FontAwesome;
-  padding-right: 10px;
   color: #fff;
+  display: inline-block;
+  font-family: FontAwesome;
+  width: 30px;
 }
 
 p.code::before {
