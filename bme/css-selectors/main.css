@@ -1,0 +1,7 @@
+#div1 .item {
+  color: #ff0000;
+}
+
+#div2 > .item {
+  color: #ff0000;
+}
