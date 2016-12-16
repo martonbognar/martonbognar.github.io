@@ -1,0 +1,18 @@
+#simple-list {
+  background-image: url('/images/background-div.png');	
+  display: inline-block;
+  font-size: 2em;
+  margin-top: 5em;
+  text-align: center;
+}
+
+#simple-list ul {
+  list-style-type: none;
+  margin: auto;
+  text-align: left;
+  width: auto;
+}
+
+#simple-list i {
+  margin-right: 1em;
+}
