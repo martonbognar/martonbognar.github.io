@@ -38,7 +38,7 @@ a, a:visited, a:active {
   width: auto;
   margin: auto;
   background-image: url('/images/background-div.png');
-  padding: 10px;
+  padding: 10px 50px;
 }
 
 #top {
