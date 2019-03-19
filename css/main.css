@@ -45,7 +45,7 @@ a, a:visited, a:active {
   margin-top: 50px;
 }
 
-#top img {
+#top > img {
   margin: auto;
   display: flex;
   width: 300px;
@@ -55,9 +55,13 @@ a, a:visited, a:active {
   -moz-border-radius: 300px;
 }
 
-#top p {
+#top > p {
   color: #969696;
   font-style: italic;
+}
+
+#top > ul {
+  text-align: left;
 }
 
 #contact-icons ul, #contact-icons li {
@@ -128,4 +132,18 @@ p.links::before {
 
 p.description::before {
   content: '\f0f6';
+}
+
+article {
+  text-align: justify;
+  max-width: 80ch;
+}
+
+article h1 {
+  text-align: left;
+}
+
+#date {
+  text-align: right;
+  font-style: italic;
 }
