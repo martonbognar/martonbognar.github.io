@@ -13,7 +13,7 @@ A while ago I tried to create star trail photographs for the first time. Althoug
 
 Initially I looked for dedicated star stacking software, but everything I found was either not available for Linux, massively outdated, or not free.
 
-It turns out you can use the swiss army knife of cross-platform image manipulation, ImageMagick to achieve great results.
+It turns out you can use the swiss army knife of cross-platform image manipulation, [ImageMagick](https://www.imagemagick.org/) to achieve great results.
 
 If your pictures are aligned pixel-perfectly, the only thing you need to do is to get the maximum value for each pixel across all the pictures. This will preserve all the small fragments of trails from each picture for the product image.
 
