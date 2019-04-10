@@ -32,7 +32,7 @@ This step is quite straightforward, you can just run `npm run prod` and `compose
 
 Your shared host probably has a `www` or `public_html` folder it expects you to upload your files in. You don't actually upload your Laravel app inside this folder, because that opens the possibility of attackers opening and extracting information from your files.
 
-The way to go is to create a new folder (e.g. `my_application`) next to this one on the server, and upload all your files into that. The only exception is your app's `public` folder, this one needs to go in the designated directory (`public_html` in my case).
+The way to go is to create a new folder (e.g. `my_application`) next to this one on the server, and upload all your files into that (you don't need to upload `node_modules`). The only exception is your app's `public` folder, this one needs to go in the designated directory (`public_html` in my case).
 
 This means that you need to make one final modification, edit the paths in `public/index.php` to reflect the new directory structure (essentially add a `../` at the start of the paths).
 
