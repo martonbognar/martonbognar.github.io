@@ -36,6 +36,7 @@ a, a:visited, a:active {
 #container {
   display: inline-block;
   width: auto;
+  max-width: 80ch;
   margin: auto;
   background-image: url('/images/background-div.png');
   padding: 10px 50px;
@@ -88,6 +89,10 @@ div.project-img {
 
 img {
   width: 100%;
+}
+
+h2 {
+  text-align: left;
 }
 
 h3 {
