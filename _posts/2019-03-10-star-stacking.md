@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Star stacking with a single command
-comments: true
 ---
 If you're only here for the technical TL;DR:
 

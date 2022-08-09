@@ -3,27 +3,6 @@ layout: default
 ---
 <article>
     <h1><a href="/">Home</a> &gt; {{ page.title }}</h1>
-    <p id="date">{{ page.date | date_to_string }}</p>
 
     {{ content }}
 </article>
-
-{% if page.comments %}
-<div id="disqus_thread"></div>
-<script>
-
-var disqus_config = function () {
-this.page.url = "https://mici.hu{{ page.url }}";
-this.page.identifier = "{{ page.url }}";
-};
-
-(function() {
-var d = document, s = d.createElement('script');
-s.src = 'https://mici-hu.disqus.com/embed.js';
-s.setAttribute('data-timestamp', +new Date());
-(d.head || d.body).appendChild(s);
-})();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-
-{% endif %}

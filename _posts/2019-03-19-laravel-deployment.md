@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Laravel deployment over FTP (with config cache and migrations)
-comments: true
 ---
 Laravel offers a nice development environment with the Homestead virtual machine, but the deployment is a different story. You might want to publish your site on a shared hosting service which only offers FTP access to your server. This is the situation I faced, and I couldn't find a complete tutorial (everyone seems to assume SSH access), so I decided to share my workflow.
 
