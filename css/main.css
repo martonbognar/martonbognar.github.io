@@ -4,8 +4,9 @@ html, body {
   background-image: url('/images/background.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  color: #ddd;
-  font-family: 'Open Sans';
+  color: #eee;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 400;
   margin: 0;
   min-height: 100%;
   padding: 0;
@@ -19,12 +20,12 @@ html, body {
 }
 
 ::selection {
-  background-color: #969696;
+  background-color: #ff9933;
   color: #ffffff;
 }
 
 ::-moz-selection {
-  background-color: #969696;
+  background-color: #ff9933;
   color: #ffffff;
 }
 
@@ -36,9 +37,9 @@ a, a:visited, a:active {
 #container {
   display: inline-block;
   width: auto;
-  max-width: 80ch;
+  max-width: 90ch;
   margin: auto;
-  background-image: url('/images/background-div.png');
+  background: rgba(0, 0, 0, 0.9);
   padding: 10px 50px;
 }
 
@@ -108,7 +109,8 @@ div.project-meta {
 }
 
 h1, h2, h3 {
-  font-family: 'Roboto';
+  font-family: 'Lexend', sans-serif;
+  font-weight: 600;
   color: #fff;
 }
 
