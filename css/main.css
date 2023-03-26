@@ -34,10 +34,18 @@ a, a:visited, a:active {
   text-decoration: none;
 }
 
+.authors {
+  color: #ddd;
+}
+
+.title {
+  font-weight: bold;
+}
+
 #container {
   display: inline-block;
   width: auto;
-  max-width: 90ch;
+  max-width: 100ch;
   margin: auto;
   background: rgba(0, 0, 0, 0.9);
   padding: 10px 50px;
