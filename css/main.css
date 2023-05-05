@@ -79,6 +79,10 @@ a, a:visited, a:active {
   text-align: left;
 }
 
+#publications {
+  list-style-type: none;
+}
+
 #publications > li {
   padding-bottom: 1em;
 }
