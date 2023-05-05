@@ -40,6 +40,11 @@ a, a:visited, a:active {
 
 .title {
   font-weight: bold;
+  font-size: 1.2em;
+}
+
+.venue {
+  font-style: italic;
 }
 
 #container {
@@ -72,6 +77,10 @@ a, a:visited, a:active {
 
 #top > ul {
   text-align: left;
+}
+
+#publications > li {
+  padding-bottom: 1em;
 }
 
 #contact-icons ul, #contact-icons li {
