@@ -38,6 +38,11 @@ a, a:visited, a:active {
   color: #ddd;
 }
 
+.year {
+  color: #aaa;
+  font-style: italic;
+}
+
 .title {
   font-weight: bold;
   font-size: 1.2em;
@@ -45,6 +50,10 @@ a, a:visited, a:active {
 
 .venue {
   font-style: italic;
+}
+
+.student {
+  font-weight: bold;
 }
 
 #container {
