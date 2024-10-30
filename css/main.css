@@ -52,6 +52,10 @@ a, a:visited, a:active {
   font-style: italic;
 }
 
+.award {
+  font-weight: bold;
+}
+
 .student {
   font-weight: bold;
 }
