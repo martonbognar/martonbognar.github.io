@@ -35,7 +35,14 @@ a, a:visited, a:active {
 }
 
 .authors {
+  margin-top: 0.2em;
+  display: block;
   color: #ddd;
+}
+
+.me {
+  padding: 0 2px;
+  background-color: #ff993366;
 }
 
 .year {
